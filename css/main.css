@@ -188,8 +188,8 @@ input, select, textarea {
 			width: -webkit-max-content;
 			width: -ms-max-content;
 			width: max-content;
-			padding-bottom: 0.5rem;
-			margin: 0 0 2rem 0;
+			/* padding-bottom: 0.5rem;
+			margin: 0 0 2rem 0; */
 		}
 
 	h1 {
@@ -282,7 +282,7 @@ input, select, textarea {
 	hr {
 		border: 0;
 		border-bottom: solid 1px #ffffff;
-		margin: 2.75rem 0;
+		margin: -0.25rem 0;
 	}
 
 	.align-left {
@@ -786,7 +786,7 @@ input, select, textarea {
 		display: flex;
 		cursor: default;
 		list-style: none;
-		margin-left: -1rem;
+		margin-left: 3rem;
 		padding-left: 0;
 	}
 
@@ -809,15 +809,16 @@ input, select, textarea {
 			}
 
 		ul.actions.stacked {
-			-moz-flex-direction: column;
-			-webkit-flex-direction: column;
-			-ms-flex-direction: column;
-			flex-direction: column;
-			margin-left: 0;
+			display: flex;
+			cursor: default;
+			list-style: none;
+			margin-left: 3rem;
+			padding-left: 0;
+			margin: 57px 54px;
 		}
 
 			ul.actions.stacked li {
-				padding: 1.3rem 0 0 0;
+				padding: -0.3rem 0 0 0;
 			}
 
 				ul.actions.stacked li:first-child {
@@ -886,7 +887,7 @@ input, select, textarea {
 					ul.actions:not(.fixed) li input[type="button"],
 					ul.actions:not(.fixed) li button,
 					ul.actions:not(.fixed) li .button {
-						width: 100%;
+						width: 70%;
 					}
 
 						ul.actions:not(.fixed) li input[type="submit"].icon:before,
@@ -1551,7 +1552,7 @@ input, select, textarea {
 			transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
 			padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
 			position: relative;
-			width: 40rem;
+			width: 36rem;
 			max-width: 100%;
 			background-color: rgba(27, 31, 34, 0.85);
 			border-radius: 4px;
@@ -1609,7 +1610,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#main article {
-				padding: 3.5rem 2rem 0.5rem 2rem ;
+				padding: 3.5rem 2rem 0.5rem 2rem;
 			}
 
 				#main article .close:before {
@@ -1684,7 +1685,7 @@ input, select, textarea {
 	filter: invert(1);
 	box-shadow: 0 11px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	display: block;
-	margin: -30px 0 84px 0;
+	margin: auto;
 	width: 70%;
 }
 
@@ -1692,13 +1693,13 @@ input, select, textarea {
 	color: chartreuse;
 	text-align: left;
 	font-size: Small;
-	margin-left: 20%;
+	margin-left: 32%;
 }
-.button01 {
+/* .button01 {
 	position: absolute;
 	top: 56.5%;
 	left: 34%;
-	transform: translate(208%, -608%);
+	transform: translate(-49%, -560%);
 	padding: 0px 6px;
 	border: 2px solid;
 	cursor: pointer;
@@ -1711,33 +1712,33 @@ input, select, textarea {
 		position: absolute;
 		top: 56.5%;
 		left: 34%;
-		transform: translate(230%, -850%);
+		transform: translate(67%, -560%);
 		padding: 0px 6px;
 		border: 2px solid;
 		cursor: pointer;
 		border-radius: 10%;
 		text-align: center;
 		background-color: black;
-		}
+		} */
 
 		#work01 span img {
 			filter: url();
 			display: block;
-			margin: -30px 0 84px 0;
+			margin: auto;
 			width: 70%;
 		}
 		#work01 h3 {
     color: chartreuse;
     text-align: left;
     font-size: Small;
-    margin-left: 23%;
+    margin-left: 32%;
 }
 
-		.button03 {
+		/* .button03 {
 			position: absolute;
 			top: 56.5%;
 			left: 34%;
-			transform: translate(208%, 405%);
+			transform: translate(86%, 937%);
 			padding: 0px 6px;
 			border: 2px solid;
 			cursor: pointer;
@@ -1750,11 +1751,11 @@ input, select, textarea {
 				position: absolute;
 				top: 56.5%;
 				left: 34%;
-				transform: translate(230%, 180%);
+				transform: translate(-105%, 940%);
 				padding: 0px 6px;
 				border: 2px solid;
 				cursor: pointer;
 				border-radius: 10%;
 				text-align: center;
 				background-color: black;
-				}
+				} */
