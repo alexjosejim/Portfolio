@@ -202,7 +202,7 @@ input, select, textarea {
 	h2 {
 		font-size: 1.5rem;
 		line-height: 1.4;
-		letter-spacing: 0.5rem;
+		letter-spacing: 0.1rem;
 	}
 
 	h3 {
@@ -648,7 +648,6 @@ input, select, textarea {
 		border-radius: 4px;
 		border: 0;
 		display: inline-block;
-		position: relative;
 	}
 
 		.image:before {
@@ -943,8 +942,10 @@ input, select, textarea {
 	}
 
 	table {
-		margin: 0 0 2rem 0;
-		width: 100%;
+		margin: 1px 130px 15px 125px;
+		width: 35%;
+		border-style: solid;
+ 		border-width: 5px;
 	}
 
 		table tbody tr {
@@ -1665,3 +1666,95 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+.skills hr {
+	padding: 0;
+	margin: 0;
+}
+
+.skills h3 {
+	margin: 1rem;
+}
+
+#about p {
+		text-align: justify;
+}
+
+#work span img {
+	filter: invert(1);
+	box-shadow: 0 11px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	display: block;
+	margin: -30px 0 84px 0;
+	width: 70%;
+}
+
+#work h3 {
+	color: chartreuse;
+	text-align: left;
+	font-size: Small;
+	margin-left: 20%;
+}
+.button01 {
+	position: absolute;
+	top: 56.5%;
+	left: 34%;
+	transform: translate(208%, -608%);
+	padding: 0px 6px;
+	border: 2px solid;
+	cursor: pointer;
+	border-radius: 10%;
+	text-align: center;
+	background-color: black;
+	}
+
+	.button02 {
+		position: absolute;
+		top: 56.5%;
+		left: 34%;
+		transform: translate(230%, -850%);
+		padding: 0px 6px;
+		border: 2px solid;
+		cursor: pointer;
+		border-radius: 10%;
+		text-align: center;
+		background-color: black;
+		}
+
+		#work01 span img {
+			filter: url();
+			display: block;
+			margin: -30px 0 84px 0;
+			width: 70%;
+		}
+		#work01 h3 {
+    color: chartreuse;
+    text-align: left;
+    font-size: Small;
+    margin-left: 23%;
+}
+
+		.button03 {
+			position: absolute;
+			top: 56.5%;
+			left: 34%;
+			transform: translate(208%, 405%);
+			padding: 0px 6px;
+			border: 2px solid;
+			cursor: pointer;
+			border-radius: 10%;
+			text-align: center;
+			background-color: black;
+			}
+
+			.button04 {
+				position: absolute;
+				top: 56.5%;
+				left: 34%;
+				transform: translate(230%, 180%);
+				padding: 0px 6px;
+				border: 2px solid;
+				cursor: pointer;
+				border-radius: 10%;
+				text-align: center;
+				background-color: black;
+				}
