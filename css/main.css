@@ -112,7 +112,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			html {
-				font-size: 13pt;
+				font-size: 12pt;
 			}
 
 		}
@@ -120,7 +120,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			html {
-				font-size: 11pt;
+				font-size: 12pt;
 			}
 
 		}
@@ -225,7 +225,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		h1 {
-			font-size: 3.75rem;
+			font-size: 2.75rem;
 			line-height: 1.4;
 			font-family: 'Indie Flower', cursive;
 		}
@@ -652,7 +652,7 @@ input, select, textarea {
 
 		.image:before {
 			pointer-events: none;
-			background-image: url("../../images/pic05.jpg");
+			/* background-image: url("../../images/pic05.jpg"); */
 			background-color: rgba(19, 21, 25, 0.5);
 			border-radius: 4px;
 			content: '';
@@ -1220,7 +1220,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			#wrapper {
-				padding: 3rem 2rem;
+				padding: 0rem 2rem;
 			}
 
 		}
@@ -1448,16 +1448,6 @@ input, select, textarea {
 					height: calc(2rem + 1px);
 				}
 
-			/* #header .logo {
-				width: 4.75rem;
-				height: 4.75rem;
-				line-height: 4.75rem;
-			} */
-
-				/* #header .logo .icon:before {
-					font-size: 1.75rem;
-				} */
-
 			#header .content .inner {
 				padding: 2.5rem 1rem;
 			}
@@ -1554,7 +1544,7 @@ input, select, textarea {
 			position: relative;
 			width: 36rem;
 			max-width: 100%;
-			background-color: rgba(27, 31, 34, 0.85);
+			background-color: #234761;
 			border-radius: 4px;
 			opacity: 0;
 		}
@@ -1640,7 +1630,7 @@ input, select, textarea {
 		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
 		width: 100%;
 		max-width: 100%;
-		margin-top: 2rem;
+		/* margin-top: 2rem; */
 		text-align: center;
 	}
 
@@ -1682,7 +1672,7 @@ input, select, textarea {
 }
 
 #work span img {
-	filter: invert(1);
+	filter:sepia();
 	box-shadow: 0 11px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	display: block;
 	margin: auto;
@@ -1692,37 +1682,13 @@ input, select, textarea {
 #work h3 {
 	color: chartreuse;
 	text-align: left;
-	font-size: Small;
-	margin-left: 32%;
+	font-size: initial;
+	margin: 1rem;
 }
-/* .button01 {
-	position: absolute;
-	top: 56.5%;
-	left: 34%;
-	transform: translate(-49%, -560%);
-	padding: 0px 6px;
-	border: 2px solid;
-	cursor: pointer;
-	border-radius: 10%;
-	text-align: center;
-	background-color: black;
-	}
 
-	.button02 {
-		position: absolute;
-		top: 56.5%;
-		left: 34%;
-		transform: translate(67%, -560%);
-		padding: 0px 6px;
-		border: 2px solid;
-		cursor: pointer;
-		border-radius: 10%;
-		text-align: center;
-		background-color: black;
-		} */
 
 		#work01 span img {
-			filter: url();
+			filter: invert(1);
 			display: block;
 			margin: auto;
 			width: 70%;
@@ -1730,32 +1696,6 @@ input, select, textarea {
 		#work01 h3 {
     color: chartreuse;
     text-align: left;
-    font-size: Small;
-    margin-left: 32%;
+    font-size: initial;
+    margin: 1rem;
 }
-
-		/* .button03 {
-			position: absolute;
-			top: 56.5%;
-			left: 34%;
-			transform: translate(86%, 937%);
-			padding: 0px 6px;
-			border: 2px solid;
-			cursor: pointer;
-			border-radius: 10%;
-			text-align: center;
-			background-color: black;
-			}
-
-			.button04 {
-				position: absolute;
-				top: 56.5%;
-				left: 34%;
-				transform: translate(-105%, 940%);
-				padding: 0px 6px;
-				border: 2px solid;
-				cursor: pointer;
-				border-radius: 10%;
-				text-align: center;
-				background-color: black;
-				} */
